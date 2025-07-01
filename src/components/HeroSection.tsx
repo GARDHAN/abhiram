@@ -27,14 +27,6 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16 py-20 md:py-24">
         <div className="max-w-4xl">
-          {/* Logo */}
-          <div className="mb-8">
-            <h2 className="text-white font-bold text-2xl">
-              <span className="text-white">the</span>
-              <span className="text-orange-400">might</span>
-            </h2>
-          </div>
-
           {/* Hero Content */}
           <div className="text-white space-y-10 animate-fade-in">
             <div className="space-y-6">
