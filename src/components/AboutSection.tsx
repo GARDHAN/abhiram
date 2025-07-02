@@ -24,14 +24,14 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} id="about" className="py-24 bg-gradient-to-br from-orange-50 to-red-50">
+    <section ref={sectionRef} id="about" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* First Row - Image Left, Content Right */}
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
           <div className="relative transform hover:scale-105 transition-transform duration-500">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/lovable-uploads/f4895f09-a8e6-40b3-9cf2-a450e373330d.png"
+                src="/lovable-uploads/pic 4.png"
                 alt="Abhiram Nair - Online fitness transformation coach India"
                 className="w-full h-full object-cover"
               />
@@ -74,7 +74,7 @@ const AboutSection = () => {
           <div className="lg:order-2 relative transform hover:scale-105 transition-transform duration-500">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/lovable-uploads/eb03bd06-be35-426e-bca4-a6717a907409.png"
+                src="/lovable-uploads/pic 3.png"
                 alt="Abhiram Nair fitness coach transformation journey"
                 className="w-full h-full object-cover"
               />
